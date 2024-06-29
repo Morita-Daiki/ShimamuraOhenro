@@ -12,7 +12,7 @@ cursor.execute('''CREATE TABLE IF NOT EXISTS stores
 
 progress = tqdm(total=111, desc="Processing", unit="step")
 
-for step_num in range(1, 111):  # Loop through steps 1 to 111
+for step_num in range(1, 111):  # Loop through steps 1 to 110
     progress.update()
 
     file_path = f'html_data/step_{step_num}.html'
