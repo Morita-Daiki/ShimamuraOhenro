@@ -10,9 +10,9 @@ cursor = conn.cursor()
 cursor.execute('''CREATE TABLE IF NOT EXISTS stores
                 (store_name TEXT, prefecture_name TEXT, full_address TEXT, phone_number TEXT)''')
 
-progress = tqdm(total=72, desc="Processing", unit="step")
+progress = tqdm(total=111, desc="Processing", unit="step")
 
-for step_num in range(1, 72):  # Loop through steps 1 to 71
+for step_num in range(1, 111):  # Loop through steps 1 to 71
     progress.update()
 
     file_path = f'html_data/step_{step_num}.html'
