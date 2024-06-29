@@ -6,9 +6,9 @@ import time
 if not os.path.exists("html_data"):
     os.makedirs("html_data")
 
-# Loop through steps from 1 to 71
-for step in range(1, 72):
-    url = f"https://www.shimamura.gr.jp/shop/list/?q=1&g%5B0%5D=1&step={step}"
+# Loop through steps from 1 to 110
+for step in range(1, 111):
+    url = f"https://www.shimamura.gr.jp/shop/list/?q=1&step={step}"
 
     headers = {
         "User-Agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0",
