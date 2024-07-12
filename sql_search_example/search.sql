@@ -1,3 +1,4 @@
+-- $ sqlite3 database/store_data.db < search.sql
 SELECT store_name
 FROM stores
 WHERE prefecture_name = '岐阜県'
